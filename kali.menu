@@ -1,0 +1,11 @@
+MENU BEGIN KALIINST
+MENU TITLE Kali (rolling)
+MENU LABEL ^Kali (rolling)
+MENU BACKGROUND er/plugins/kali/kali.png
+
+MENU INCLUDE er/plugins/kali/i386/kalimain.menu
+MENU INCLUDE er/plugins/kali/amd64/kalimain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END
